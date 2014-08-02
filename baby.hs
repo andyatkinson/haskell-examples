@@ -35,5 +35,3 @@ circumference' r = 2 * pi * r
 -- Enum, succ and pred functions
 -- Bounded members have an upper and lower bound
 -- Num includes all numbers, including real and integral numbers
-
-
