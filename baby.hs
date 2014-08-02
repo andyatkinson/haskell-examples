@@ -9,7 +9,7 @@ christmasTime = take 8 (cycle "HO ")
 boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
 length' xs = sum [1 | _ <- xs]
 removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
-rightTrinagles' = [ (a,b,c) | c <- [1..10], a <- [1..c], b <- [1..a], a^2 + b^2 == c^2, a+b+c == 24]
+rightTriangles' = [ (a,b,c) | c <- [1..10], a <- [1..c], b <- [1..a], a^2 + b^2 == c^2, a+b+c == 24]
 
 -- chapter 2
 addThree :: Int -> Int -> Int -> Int
@@ -35,3 +35,5 @@ circumference' r = 2 * pi * r
 -- Enum, succ and pred functions
 -- Bounded members have an upper and lower bound
 -- Num includes all numbers, including real and integral numbers
+
+
